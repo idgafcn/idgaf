@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://idgaf.cn/"/>
-  <updated>2018-05-30T18:15:54.755Z</updated>
+  <updated>2018-06-05T04:29:30.195Z</updated>
   <id>http://idgaf.cn/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>有这样一个笑话</title>
+    <link href="http://idgaf.cn/2018/06/05/joke-01/"/>
+    <id>http://idgaf.cn/2018/06/05/joke-01/</id>
+    <published>2018-06-05T04:23:26.000Z</published>
+    <updated>2018-06-05T04:29:30.195Z</updated>
+    
+    <content type="html"><![CDATA[<p>来源/网络<br>某伪公知的母亲（以后称F妈妈）：“儿，我来了”<br>F ：“你不是我母亲”<br>F 的母亲：“为什么”<br>F ：“你有证据吗”<br>F 的母亲：“我们长得像”<br>F ：“长的像就是证据吗，这年头长得像得多了”<br>F 的母亲：“你爹和亲戚都能作证”<br>F ：“那是被你蒙蔽的群众”<br>F 的母亲：“当时接生的护士亲眼见到我生的你”<br>F ：“看到的不一定都是真的，变魔术你知道不，连大活人都能变，还在乎将我从你肚子里变出呀。”<br>F 的母亲：“大家都承认呀 ”<br>F ：“大家都承认世上有鬼呢，我怎么没看见。”<br>F 的母亲：“我们做亲子鉴定“<br>F ：”不用了，鉴定的不一定都是真的，你知道不，现在鉴定造假多得是了。“<br>F 的母亲：“哪，你到底怎样相信呢？”<br>F ：“这不是我信不信，根据我当时出国造的假华侨证明，我娘是华侨！”<br>F 的母亲：“我真是你妈“<br>F ：”那你说说，你为什么能生我，原理是什么，科学依据是什么，要知道科学是讲依据的，不是你生了我就生了我的！“<br>F 的母亲：“你……”<br>F ：“要骂人了？伪科学的本质显露了！想蒙我，你还嫩着呢！去学学组织胚胎学再说”<br>F是Fake的意思，不要多想。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;来源/网络&lt;br&gt;某伪公知的母亲（以后称F妈妈）：“儿，我来了”&lt;br&gt;F ：“你不是我母亲”&lt;br&gt;F 的母亲：“为什么”&lt;br&gt;F ：“你有证据吗”&lt;br&gt;F 的母亲：“我们长得像”&lt;br&gt;F ：“长的像就是证据吗，这年头长得像得多了”&lt;br&gt;F 的母亲：“你爹和亲戚都
+      
+    
+    </summary>
+    
+      <category term="笑话" scheme="http://idgaf.cn/categories/%E7%AC%91%E8%AF%9D/"/>
+    
+    
+      <category term="笑话" scheme="http://idgaf.cn/tags/%E7%AC%91%E8%AF%9D/"/>
+    
+      <category term="证明你妈是你妈" scheme="http://idgaf.cn/tags/%E8%AF%81%E6%98%8E%E4%BD%A0%E5%A6%88%E6%98%AF%E4%BD%A0%E5%A6%88/"/>
+    
+  </entry>
   
   <entry>
     <title>听说墨西哥无毛犬最近很火</title>
@@ -119,27 +146,6 @@
     
     
       <category term="照片" scheme="http://idgaf.cn/tags/%E7%85%A7%E7%89%87/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="http://idgaf.cn/2018/05/30/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/"/>
-    <id>http://idgaf.cn/2018/05/30/测试文章/</id>
-    <published>2018-05-30T15:42:53.211Z</published>
-    <updated>2018-05-30T15:42:53.211Z</updated>
-    
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
-      
-    
-    </summary>
-    
     
   </entry>
   
