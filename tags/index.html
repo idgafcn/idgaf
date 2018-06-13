@@ -295,209 +295,57 @@
 
 <!-- Layouts -->
 
-    <!-- Post Module -->
-    <div class="material-post_container">
+    <!-- Tags Cloud -->
+    <style>
+    #bottom{
+        position: relative;
+    }
 
-        <div class="material-post mdl-grid">
-            <div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--12-col">
+    @media screen and (max-width: 480px) {
+        .material-tagscloud{
+            margin: 6em 2em 0;
+        }
+    }
 
-                <!-- Post Header(Thumbnail & Title) -->
-                
-    <!-- Paradox Post Header -->
-    
-        
-            <!-- Random Thumbnail -->
-            <div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
-            <script type="text/ls-javascript" id="post-thumbnail-script">
-    var randomNum = Math.floor(Math.random() * 19 + 1);
+    .material-tagscloud a{
+        text-decoration:none;
+        padding: 1px 9px;
+        margin: 9px 1px;
+        line-height: 40px;
+        white-space: nowrap;
+        transition: .6s;
+        opacity: .85;
+    }
 
-    $('.post_thumbnail-random').attr('data-original', '/img/random/material-' + randomNum + '.png');
-    $('.post_thumbnail-random').addClass('lazy');
-</script>
-
-        
-    
-            <p class="article-headline-p">
-                tags
-            </p>
-        </div>
-
-
-
-
-
-                
-                    <!-- Paradox Post Info -->
-                    <div class="mdl-color-text--grey-700 mdl-card__supporting-text meta">
-
-    <!-- Author Avatar -->
-    <div id="author-avatar">
-        <img src="/img/avatar.gif" width="44px" height="44px" alt="Author Avatar"/>
-    </div>
-    <!-- Author Name & Date -->
-    <div>
-        <strong>MAX</strong>
-        <span>5月 31, 2018</span>
-    </div>
-
-    <div class="section-spacer"></div>
-
-    <!-- Favorite -->
-    <!--
-        <button id="article-functions-like-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon btn-like">
-            <i class="material-icons" role="presentation">favorite</i>
-            <span class="visuallyhidden">favorites</span>
-        </button>
-    -->
-
-    <!-- Qrcode -->
-    
-
-    <!-- Tags (bookmark) -->
-    
-    <button id="article-functions-viewtags-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
-        <i class="material-icons" role="presentation">bookmark</i>
-        <span class="visuallyhidden">bookmark</span>
-    </button>
-    <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-viewtags-button">
-        <li class="mdl-menu__item">
-        
-    </ul>
-    
-
-    <!-- Share -->
-    <button id="article-fuctions-share-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
-    <i class="material-icons" role="presentation">share</i>
-    <span class="visuallyhidden">share</span>
-</button>
-<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-fuctions-share-button">
-    
-
-    
-
-    <!-- Share Weibo -->
-    
-        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=tags&url=http://idgaf.cn/tags/index.html&pic=&searchPic=false&style=simple" target="_blank">
-            <li class="mdl-menu__item">
-                分享到微博
-            </li>
-        </a>
-    
-
-    <!-- Share Twitter -->
-    
-        <a class="post_share-link" href="https://twitter.com/intent/tweet?text=tags&url=http://idgaf.cn/tags/index.html&via=MAX" target="_blank">
-            <li class="mdl-menu__item">
-                分享到 Twitter
-            </li>
-        </a>
-    
-
-    <!-- Share Facebook -->
-    
-        <a class="post_share-link" href="https://www.facebook.com/sharer/sharer.php?u=http://idgaf.cn/tags/index.html" target="_blank">
-            <li class="mdl-menu__item">
-                分享到 Facebook
-            </li>
-        </a>
-    
-
-    <!-- Share Google+ -->
-    
-        <a class="post_share-link" href="https://plus.google.com/share?url=http://idgaf.cn/tags/index.html" target="_blank">
-            <li class="mdl-menu__item">
-                分享到 Google+
-            </li>
-        </a>
-    
-
-    <!-- Share LinkedIn -->
-    
-
-    <!-- Share QQ -->
-    
-        <a class="post_share-link" href="http://connect.qq.com/widget/shareqq/index.html?site=IDGAF&title=tags&summary=I don&#39;t give a fuck.&pics=http://idgaf.cn/img/favicon.png&url=http://idgaf.cn/tags/index.html" target="_blank">
-            <li class="mdl-menu__item">
-                分享到 QQ
-            </li>
-        </a>
-    
-
-    <!-- Share Telegram -->
-    
-        <a class="post_share-link" href="https://telegram.me/share/url?url=http://idgaf.cn/tags/index.html&text=tags" target="_blank">
-            <li class="mdl-menu__item">
-                分享到 Telegram
-            </li>
-        </a>
-    
-</ul>
-
-</div>
-
-                
-
-                <!-- Post Content -->
-                <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
-    
-        
-    
-
-    
-</div>
-
-
-                
-
-                <!-- Post Comments -->
-                
-                    
-    <!-- 使用 DISQUS -->
-<div id="disqus-comment">
-    <div id="disqus_thread"></div>
-<script type="text/javascript">
-    var disqus_config = function () {
-        this.page.url = 'http://idgaf.cn/tags/index.html';  // Replace PAGE_URL with your page's canonical URL variable
-        this.page.identifier = 'http://idgaf.cn/tags/index.html'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-    };
-</script>
-<script type="text/ls-javascript" id="disqus-thread-script">
-    queue.offer(function() {
-            (function() { // DON'T EDIT BELOW THIS LINE
-                var d = document;
-                var s = d.createElement('script');
-                s.src = '//applevents2013.disqus.com/embed.js';
-                s.setAttribute('data-timestamp', + new Date());
-                (d.head || d.body).appendChild(s);
-            })();
-        });
-</script>
-
-</div>
-<style>
-    #disqus-comment{
-        background-color: #eee;
-        padding: 2pc;
+    .material-tagscloud a:hover{
+        transition: .6s;
+        opacity: 1;
+        background: #FAFAFA;
+        box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
     }
 </style>
 
-                
-            </div>
-
-            <!-- Post Prev & Next Nav -->
-            <nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
-    <!-- Prev Nav -->
-    
-
-    <!-- Section Spacer -->
-    <div class="section-spacer"></div>
-
-    <!-- Next Nav -->
-    
-</nav>
-
-        </div>
+<div class=" material-tagscloud">
+    <div class="material-post mdl-grid">
+        <a href="/tags/github/" style="font-size: 16px; color: #757575">github</a> <a href="/tags/健康/" style="font-size: 16px; color: #757575">健康</a> <a href="/tags/博客/" style="font-size: 16px; color: #757575">博客</a> <a href="/tags/墨西哥无毛犬/" style="font-size: 16px; color: #757575">墨西哥无毛犬</a> <a href="/tags/好处/" style="font-size: 16px; color: #757575">好处</a> <a href="/tags/有图有真相/" style="font-size: 16px; color: #757575">有图有真相</a> <a href="/tags/照片/" style="font-size: 16px; color: #757575">照片</a> <a href="/tags/笑话/" style="font-size: 16px; color: #757575">笑话</a> <a href="/tags/证明你妈是你妈/" style="font-size: 16px; color: #757575">证明你妈是你妈</a> <a href="/tags/走路/" style="font-size: 16px; color: #757575">走路</a>
     </div>
+</div>
+
+
+<script type="text/ls-javascript" id="page-tagcloud-script">
+    var adjustFooter = function() {
+        if( ($('#bottom').offset().top + $('#bottom').outerHeight() ) < $(window).height() ) {
+            var footerBottom = $(window).height() - $('#bottom').outerHeight() - $('#bottom').offset().top;
+            $('#bottom').css('bottom', '-' + footerBottom + 'px');
+        }
+    };
+
+    $(document).ready(function() {
+        adjustFooter();
+    });
+</script>
+
+
 
 
 
@@ -624,6 +472,16 @@
         </li>
         
     
+        <li>
+            <a href="/tags" title="Tags">
+                
+                    <i class="material-icons sidebar-material-icons">tags</i>
+                
+                Tags
+            </a>
+        </li>
+        
+    
 
     <!-- Article Number  -->
     
@@ -707,7 +565,7 @@ It will not impact the appearance and can give developers a lot of support :)
 
     <!-- Google + -->
     
-        <a href="https://www.google.com/" target="_blank">
+        <a href="https://plus.google.com/+younzeryue" target="_blank">
             <button class="mdl-mini-footer--social-btn social-btn footer-sns-gplus">
                 <span class="visuallyhidden">Google Plus</span>
             </button><!--
@@ -743,7 +601,7 @@ It will not impact the appearance and can give developers a lot of support :)
 
     <!-- Zhihu -->
     
-        <a href="https://www.google.com/" target="_blank">
+        <a href="https://www.zhihu.com/people/yumaoqiujishu/" target="_blank">
             <button class="mdl-mini-footer--social-btn social-btn footer-sns-zhihu">
                 <span class="visuallyhidden">Zhihu</span>
             </button><!--
@@ -752,7 +610,7 @@ It will not impact the appearance and can give developers a lot of support :)
 
     <!-- Bilibili -->
     
-        <a href="https://www.google.com/" target="_blank">
+        <a href="https://space.bilibili.com/3620004/" target="_blank">
             <button class="mdl-mini-footer--social-btn social-btn footer-sns-bilibili">
                 <span class="visuallyhidden">Bilibili</span>
             </button><!--
@@ -761,7 +619,7 @@ It will not impact the appearance and can give developers a lot of support :)
 
     <!-- Telegram -->
     
-        <a href="zhao4" target="_blank">
+        <a href="https://t.me/badmintion" target="_blank">
             <button class="mdl-mini-footer--social-btn social-btn footer-sns-telegram">
                 <span class="visuallyhidden">Telegram</span>
             </button><!--
