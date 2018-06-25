@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>IDGAF</title>
   
-  <subtitle>just do it.</subtitle>
+  <subtitle>I don&#39;t give a fuck.</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://idgaf.cn/"/>
@@ -10,7 +10,7 @@
   <id>http://idgaf.cn/</id>
   
   <author>
-    <name>MAX</name>
+    <name>小佛</name>
     
   </author>
   
