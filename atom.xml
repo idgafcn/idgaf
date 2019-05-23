@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://idgaf.cn/"/>
-  <updated>2019-05-23T04:32:01.610Z</updated>
+  <updated>2019-05-23T04:47:36.286Z</updated>
   <id>http://idgaf.cn/</id>
   
   <author>
@@ -21,19 +21,13 @@
     <link href="http://idgaf.cn/2019/04/12/ns-manufacture-date/"/>
     <id>http://idgaf.cn/2019/04/12/ns-manufacture-date/</id>
     <published>2019-04-12T09:15:12.000Z</published>
-    <updated>2019-05-23T04:32:01.610Z</updated>
+    <updated>2019-05-23T04:47:36.286Z</updated>
     
     <content type="html"><![CDATA[<p>有人知道如何查询NS的生产日期吗？</p><p>背面，靠近 Made in China 边上有年份，月份和具体日期查不到，没区别，别纠结。</p><p>有玩家说得好：</p><p>你是玩机器还是玩游戏，知道那么多做什么？玩机器你自己拆了不就都了解了，玩游戏你管那么多，能玩不就好了？</p><p>而且，万一查到了点啥膈应到了自己怎么办？别管这些好好享受游戏。本来玩游戏就是想要获得快乐的，搞一脑子疑问，一肚子气，你累不累？</p>]]></content>
     
     <summary type="html">
     
-      
-      
-        &lt;p&gt;有人知道如何查询NS的生产日期吗？&lt;/p&gt;
-&lt;p&gt;背面，靠近 Made in China 边上有年份，月份和具体日期查不到，没区别，别纠结。&lt;/p&gt;
-&lt;p&gt;有玩家说得好：&lt;/p&gt;
-&lt;p&gt;你是玩机器还是玩游戏，知道那么多做什么？玩机器你自己拆了不就都了解了，玩游戏你管那么多，
-      
+      背面，靠近 Made in China 边上有年份，月份和具体日期查不到，没区别，别纠结。
     
     </summary>
     
@@ -55,17 +49,13 @@
     <link href="http://idgaf.cn/2019/04/10/dns-switch-how/"/>
     <id>http://idgaf.cn/2019/04/10/dns-switch-how/</id>
     <published>2019-04-10T12:56:34.000Z</published>
-    <updated>2019-05-23T04:31:33.881Z</updated>
+    <updated>2019-05-23T04:47:56.913Z</updated>
     
     <content type="html"><![CDATA[<p>任天堂目前相对比较近的CDN服务器在香港，比以前已经有了非常大的改观，参考网上大佬们经验，我们下面说一下修改DNS和更改NAT类型的方法。其原理都是让我们通过最近（最快）的服务器来下载相关内容。</p><h2 id="改DNS"><a href="#改DNS" class="headerlink" title="改DNS"></a>改DNS</h2><p>改DNS其实算是个治标不治本的办法，比较有效的DNS可以成功把任天堂的CDN服务器IP解析到港、日等距离近（或者说连接相对速度快）服务器，起的是导盲犬的作用。更改DNS的方法如下：</p><p>在设置中找到Internet选项，点击右侧的：Internet Settings</p><p>选择你所连接的WIFI,点击“A”确认键进入下一步；</p><p>点击Change Settings选项，进入后找到DNS Settings；</p><p>进入DNS选项后更改设置为Manual，确认后返回上一部菜单；</p><p>将Primary DNS和Second Dns数值依次改为列表中的DNS；</p><p>更改完毕后点击右侧Save保存设置。</p><p>下面是一些常用的DNS，预祝大家提速成功！</p><p>`韩国DNS: 168.126.63.1,168.126.63.2<br>阿里DNS: 223.5.5.5,223.6.6.6<br>台湾中华DNS: 168.95.1.1,168.95.192.1<br>香港DNS: 203.80.96.10，203.80.96.9<br>香港DNS: 61.10.0.130，61.10.1.130<br>香港DNS: 208.67.222.222，208.67.220.220<br>香港DNS: 202.14.67.4，202.14.67.14<br>诺顿DNS: 198.153.194.1，198.153.192.1<br>谷歌DNS: 8.8.8.8，8.8.4.4<br>中国电信DNS: 218.102.23.228 `</p><h2 id="改NAT类型"><a href="#改NAT类型" class="headerlink" title="改NAT类型"></a>改NAT类型</h2><p>手动改NAT类型操作比改DNS要复杂，上网搜搜就知道难度了。不过但效果要好一些，还可以顺便解决连网和联机对战等问题，像暗黑3､喷射等等。<strong>比较省力的方式就是买加速器</strong>，有用于电脑的软件——网易的UU加速器那种；也有硬件加速的方式，比如店里卖的<em>极讯路由器</em>（硬件+会员充值）。</p><p>提到修改，首先要知道你自己的类型是哪一种，测试方法非常简单。</p><p>比较常见的手机热点一般是 TPYE B，使用时建议手机要靠近游戏机；如果你的网络是小运营商（联通和电信以外的）、或者出租房的公用网路，那基本上比较难解决。</p><p>自己有路由的，可以尝试DMZ、开启UPnP、联系运营商改为公网IP（非电信、联通和移动的朋友就不用考虑了）。</p><p>另外国内有些运营商仍然会把服务器解析到美帝，有动手能力的可以强行把通过支持DNSMasq的路由器手动定义CDN服务器IP地址：</p><p><code>address=/atum.hac.lp1.d4c.nintendo.net/23.56.180.81</code></p><p>上面的IP是香港的，也有其它的香港或者是台湾Akami节点的IP，可以自己Ping一下，哪个延迟低就用那个。路由器不支持的可以通过PC端找个代理工具然后设置本地Hosts，然后让NS通过本地PC代理上网。Hosts设置如下：</p><p><code>23.56.180.81        atum.hac.lp1.d4c.nintendo.net</code></p><p>参考方案在阅读原文里。</p>]]></content>
     
     <summary type="html">
     
-      
-      
-        &lt;p&gt;任天堂目前相对比较近的CDN服务器在香港，比以前已经有了非常大的改观，参考网上大佬们经验，我们下面说一下修改DNS和更改NAT类型的方法。其原理都是让我们通过最近（最快）的服务器来下载相关内容。&lt;/p&gt;
-&lt;h2 id=&quot;改DNS&quot;&gt;&lt;a href=&quot;#改DNS&quot; class
-      
+      任天堂目前相对比较近的CDN服务器在香港，比以前已经有了非常大的改观，参考网上大佬们经验，我们下面说一下修改DNS和更改NAT类型的方法。
     
     </summary>
     
