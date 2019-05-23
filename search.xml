@@ -5,34 +5,28 @@
     
     <entry>
       <title>有人知道如何查询NS的生产日期吗？</title>
-      <link href="/2019/04/12/tgbus-games-of-2018-top-sales/"/>
-      <url>/2019/04/12/tgbus-games-of-2018-top-sales/</url>
+      <link href="/2019/04/12/ns-manufacture-date/"/>
+      <url>/2019/04/12/ns-manufacture-date/</url>
       
-        <content type="html"><![CDATA[<p>有人知道如何查询NS的生产日期吗？</p><p>背面，靠近 Made in China 边上有年份，月份和具体日期查不到，没区别，别纠结。有玩家说得好，你是玩机器还是玩游戏，知道那么多做什么？玩机器你自己拆了不就都了解了，玩游戏你管那么多，能玩不就好了？</p><p>而且，万一查到了点啥膈应到了自己怎么办？别管这些好好享受游戏。本来玩游戏就是想要获得快乐的，搞一脑子疑问，一肚子气，你累不累？</p>]]></content>
+        <content type="html"><![CDATA[<p>有人知道如何查询NS的生产日期吗？</p><p>背面，靠近 Made in China 边上有年份，月份和具体日期查不到，没区别，别纠结。</p><p>有玩家说得好：</p><p>你是玩机器还是玩游戏，知道那么多做什么？玩机器你自己拆了不就都了解了，玩游戏你管那么多，能玩不就好了？</p><p>而且，万一查到了点啥膈应到了自己怎么办？别管这些好好享受游戏。本来玩游戏就是想要获得快乐的，搞一脑子疑问，一肚子气，你累不累？</p>]]></content>
       
       
       <categories>
           
           <category> 游戏 </category>
           
-          <category> 排行榜 </category>
+          <category> 主机 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> 电玩 </tag>
+            <tag> NS </tag>
             
-            <tag> 游戏 </tag>
+            <tag> 生产日期 </tag>
             
-            <tag> 主机 </tag>
-            
-            <tag> 盘点 </tag>
-            
-            <tag> 2018 </tag>
-            
-            <tag> 排行 </tag>
+            <tag> 查询 </tag>
             
         </tags>
       
@@ -42,8 +36,8 @@
     
     <entry>
       <title>dns</title>
-      <link href="/2019/04/10/tgbus-games-of-2018-top-sales/"/>
-      <url>/2019/04/10/tgbus-games-of-2018-top-sales/</url>
+      <link href="/2019/04/10/dns-switch-how/"/>
+      <url>/2019/04/10/dns-switch-how/</url>
       
         <content type="html"><![CDATA[<p>任天堂目前相对比较近的CDN服务器在香港，比以前已经有了非常大的改观，参考网上大佬们经验，我们下面说一下修改DNS和更改NAT类型的方法。其原理都是让我们通过最近（最快）的服务器来下载相关内容。</p><h2 id="改DNS"><a href="#改DNS" class="headerlink" title="改DNS"></a>改DNS</h2><p>改DNS其实算是个治标不治本的办法，比较有效的DNS可以成功把任天堂的CDN服务器IP解析到港、日等距离近（或者说连接相对速度快）服务器，起的是导盲犬的作用。更改DNS的方法如下：</p><p>在设置中找到Internet选项，点击右侧的：Internet Settings</p><p>选择你所连接的WIFI,点击“A”确认键进入下一步；</p><p>点击Change Settings选项，进入后找到DNS Settings；</p><p>进入DNS选项后更改设置为Manual，确认后返回上一部菜单；</p><p>将Primary DNS和Second Dns数值依次改为列表中的DNS；</p><p>更改完毕后点击右侧Save保存设置。</p><p>下面是一些常用的DNS，预祝大家提速成功！</p><p>`韩国DNS: 168.126.63.1,168.126.63.2<br>阿里DNS: 223.5.5.5,223.6.6.6<br>台湾中华DNS: 168.95.1.1,168.95.192.1<br>香港DNS: 203.80.96.10，203.80.96.9<br>香港DNS: 61.10.0.130，61.10.1.130<br>香港DNS: 208.67.222.222，208.67.220.220<br>香港DNS: 202.14.67.4，202.14.67.14<br>诺顿DNS: 198.153.194.1，198.153.192.1<br>谷歌DNS: 8.8.8.8，8.8.4.4<br>中国电信DNS: 218.102.23.228 `</p><h2 id="改NAT类型"><a href="#改NAT类型" class="headerlink" title="改NAT类型"></a>改NAT类型</h2><p>手动改NAT类型操作比改DNS要复杂，上网搜搜就知道难度了。不过但效果要好一些，还可以顺便解决连网和联机对战等问题，像暗黑3､喷射等等。<strong>比较省力的方式就是买加速器</strong>，有用于电脑的软件——网易的UU加速器那种；也有硬件加速的方式，比如店里卖的<em>极讯路由器</em>（硬件+会员充值）。</p><p>提到修改，首先要知道你自己的类型是哪一种，测试方法非常简单。</p><p>比较常见的手机热点一般是 TPYE B，使用时建议手机要靠近游戏机；如果你的网络是小运营商（联通和电信以外的）、或者出租房的公用网路，那基本上比较难解决。</p><p>自己有路由的，可以尝试DMZ、开启UPnP、联系运营商改为公网IP（非电信、联通和移动的朋友就不用考虑了）。</p><p>另外国内有些运营商仍然会把服务器解析到美帝，有动手能力的可以强行把通过支持DNSMasq的路由器手动定义CDN服务器IP地址：</p><p><code>address=/atum.hac.lp1.d4c.nintendo.net/23.56.180.81</code></p><p>上面的IP是香港的，也有其它的香港或者是台湾Akami节点的IP，可以自己Ping一下，哪个延迟低就用那个。路由器不支持的可以通过PC端找个代理工具然后设置本地Hosts，然后让NS通过本地PC代理上网。Hosts设置如下：</p><p><code>23.56.180.81        atum.hac.lp1.d4c.nintendo.net</code></p><p>参考方案在阅读原文里。</p>]]></content>
       
@@ -52,24 +46,20 @@
           
           <category> 游戏 </category>
           
-          <category> 排行榜 </category>
+          <category> 主机 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> 电玩 </tag>
+            <tag> NS </tag>
             
-            <tag> 游戏 </tag>
+            <tag> 游戏机 </tag>
             
-            <tag> 主机 </tag>
+            <tag> DNS </tag>
             
-            <tag> 盘点 </tag>
-            
-            <tag> 2018 </tag>
-            
-            <tag> 排行 </tag>
+            <tag> 设置 </tag>
             
         </tags>
       
@@ -112,8 +102,8 @@
     
     <entry>
       <title>评论这么少？我就知道机会来了。</title>
-      <link href="/2018/07/21/comments/"/>
-      <url>/2018/07/21/comments/</url>
+      <link href="/2018/07/21/comments-highlights-2018/"/>
+      <url>/2018/07/21/comments-highlights-2018/</url>
       
         <content type="html"><![CDATA[<h2 id="《亮剑》"><a href="#《亮剑》" class="headerlink" title="《亮剑》"></a>《亮剑》</h2><p><img src="https://i.imgur.com/UNfMOgv.png" alt="哪个狗日的打我小报告！"></p><ul><li>我的心上人是个盖世团长，总有一天他会拉着他心爱的意大利炮来轰我</li><li>二战亚洲战场的转折点—平安格勒战役</li><li>李云龙：老子做梦都想不到自己居然会被b站那群孙子拿去做鬼畜！还她娘的做得挺好 挺有节奏感﻿</li><li>好，好听，但得换成我们解放军的！</li><li>和尚说的真对，吃饭就吃饭，扯什么淡</li></ul><p>多数人都是用嘴说话，用脚投票，就是不过脑子</p>]]></content>
       
@@ -240,25 +230,6 @@
             <tag> 健康 </tag>
             
             <tag> 好处 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>我的照片</title>
-      <link href="/2018/05/31/%E6%88%91%E7%9A%84%E7%9A%82%E7%89%87/"/>
-      <url>/2018/05/31/%E6%88%91%E7%9A%84%E7%9A%82%E7%89%87/</url>
-      
-        <content type="html"><![CDATA[<p><img src="https://r.sinaimg.cn/large/article/0cb614f91f5794341b1200fcb4606dc8" alt><br><img src="https://r.sinaimg.cn/large/article/45a68905d75f0ddd2d7253e75daa9c2c" alt><br><img src="https://r.sinaimg.cn/large/article/080f6a962c3ea8a3caf58f7c2941abad" alt><br><img src="https://r.sinaimg.cn/large/article/da0b3b15514b74a2d41f4ed34f2a65f0" alt></p>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> 照片 </tag>
             
         </tags>
       
