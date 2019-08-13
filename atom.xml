@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://idgaf.cn/"/>
-  <updated>2019-08-13T03:34:56.126Z</updated>
+  <updated>2019-08-13T07:19:53.058Z</updated>
   <id>http://idgaf.cn/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>test</title>
+    <link href="http://idgaf.cn/2019/08/13/fix-me/"/>
+    <id>http://idgaf.cn/2019/08/13/fix-me/</id>
+    <published>2019-08-13T07:19:20.000Z</published>
+    <updated>2019-08-13T07:19:53.058Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+      <category term="fixme" scheme="http://idgaf.cn/categories/fixme/"/>
+    
+      <category term="fixme" scheme="http://idgaf.cn/categories/fixme/fixme/"/>
+    
+    
+      <category term="fixme" scheme="http://idgaf.cn/tags/fixme/"/>
+    
+  </entry>
   
   <entry>
     <title>2019年7月北美任天堂畅销数字游戏TOP30</title>
