@@ -116,7 +116,7 @@
 <meta name="keywords" content="idgaf">
 <meta property="og:type" content="website">
 <meta property="og:title" content="IDGAF">
-<meta property="og:url" content="http://idgaf.cn/tags/NS/index.html">
+<meta property="og:url" content="http://idgaf.cn/tags/ns/index.html">
 <meta property="og:site_name" content="IDGAF">
 <meta property="og:description" content="有事留言，别打电话。">
 <meta property="og:locale" content="zh-CN">
@@ -131,7 +131,7 @@
 
 
 
-  <link rel="canonical" href="http://idgaf.cn/tags/NS/">
+  <link rel="canonical" href="http://idgaf.cn/tags/ns/">
 
 
 
@@ -141,7 +141,7 @@
   };
 </script>
 
-  <title>标签: NS | IDGAF</title>
+  <title>标签: ns | IDGAF</title>
   
 
 
@@ -247,7 +247,7 @@
           
           <li class="menu-item menu-item-tags menu-item-active">
     <a href="/tags/" rel="section">
-      <i class="menu-item-icon fa fa-fw fa-tags"></i> <br>标签<span class="badge">16</span></a>
+      <i class="menu-item-icon fa fa-fw fa-tags"></i> <br>标签<span class="badge">22</span></a>
   </li>
         
         
@@ -263,7 +263,7 @@
           
           <li class="menu-item menu-item-archives">
     <a href="/archives/" rel="section">
-      <i class="menu-item-icon fa fa-fw fa-archive"></i> <br>归档<span class="badge">4</span></a>
+      <i class="menu-item-icon fa fa-fw fa-archive"></i> <br>归档<span class="badge">5</span></a>
   </li>
         
         
@@ -367,7 +367,7 @@
 
     <div id="posts" class="posts-collapse">
       <div class="collection-title">
-        <h1>NS<small>标签</small>
+        <h1>ns<small>标签</small>
         </h1>
       </div>
 
@@ -379,43 +379,17 @@
 
       <h2 class="post-title">
         
-            <a class="post-title-link" href="/2019/04/12/ns-manufacture-date/" itemprop="url">
+            <a class="post-title-link" href="/2019/08/07/top-30-Bestselling-Nintendo-Switch-Games-In-July-2019-North-America/" itemprop="url">
               
-                <span itemprop="name">有人知道如何查询NS的生产日期吗？</span>
-              
-            </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated" datetime="2019-04-12T17:15:12+08:00" content="2019-04-12">
-          04-12
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-      
-        
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-            <a class="post-title-link" href="/2019/04/10/dns-switch-how/" itemprop="url">
-              
-                <span itemprop="name">改DNS备忘（真的怕忘）</span>
+                <span itemprop="name">2019年7月北美任天堂畅销数字游戏TOP30</span>
               
             </a>
         
       </h2>
 
       <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated" datetime="2019-04-10T20:56:34+08:00" content="2019-04-10">
-          04-10
+        <time class="post-time" itemprop="dateCreated" datetime="2019-08-07T15:49:31+08:00" content="2019-08-07">
+          08-07
         </time>
       </div>
 
@@ -474,7 +448,7 @@
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">4</span>
+                    <span class="site-state-item-count">5</span>
                     <span class="site-state-item-name">日志</span>
                   </a>
                 </div>
@@ -544,7 +518,19 @@
                     
                       
                     
-                    <span class="site-state-item-count">16</span>
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">22</span>
                     <span class="site-state-item-name">标签</span>
                   </a>
                 </div>
@@ -1212,6 +1198,31 @@
         var ta = document.createElement('textarea')
         document.body.appendChild(ta)
         ta.style.position = 'absolute'
+        ta.style.top = '0px'
+        ta.style.left = '0px'
+        ta.value = code
+        ta.select()
+        ta.focus()
+        var result = document.execCommand('copy')
+        document.body.removeChild(ta)
+        
+          if(result)$(this).text('复制成功')
+          else $(this).text('复制失败')
+        
+        $(this).blur()
+      })).on('mouseleave', function (e) {
+        var $b = $(this).find('.copy-btn')
+        setTimeout(function () {
+          $b.text('复制')
+        }, 300)
+      }).append(e)
+    })
+  </script>
+
+
+</body>
+</html>
+osition = 'absolute'
         ta.style.top = '0px'
         ta.style.left = '0px'
         ta.value = code
